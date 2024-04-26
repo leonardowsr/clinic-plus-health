@@ -1,0 +1,14 @@
+.AppointmentMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.patientsCall {
+  color: black;
+  font-weight: 600;
+}
+.patientsCall span {
+  color: rgb(255, 110, 134);;
+}

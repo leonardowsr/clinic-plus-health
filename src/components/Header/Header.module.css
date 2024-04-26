@@ -1,0 +1,16 @@
+.HeaderContainer {
+  background: pink;
+  text-align: center;
+  padding: .6rem;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderContainer h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.548);
+}

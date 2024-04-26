@@ -1,0 +1,13 @@
+.button {
+  background: white;
+  padding: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid rgba(128, 128, 128, 0.61);
+}
+.button:hover:not(:disabled) {
+  background: rgb(255, 110, 134);
+  border: 1px solid black;
+  transition: .2s;
+}

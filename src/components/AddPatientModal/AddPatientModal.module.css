@@ -1,0 +1,70 @@
+.modalBg {
+  position: fixed;
+  background-color: rgba(0, 0, 0, .7);
+  inset: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContainer {
+  position: relative;
+  min-height: 360px;
+  min-width: 360px;
+  background-color: white;
+  height: 4px;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.closeModalButton {
+  position:absolute;
+  font-size: 1rem;
+  color: red;
+  border: 1px solid red;
+  top: 3px;
+  right: 3px;
+}
+.closeModalButton:hover {
+  background-color: yellow;
+  transition: .2s;
+}
+.modalContainer p {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid gray;
+}
+.formPatient {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.inputContainer  input {
+  width: 100%;
+  border: 1px solid gray;
+  padding: .3rem;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+.addPatientButton {
+  width: 60%;
+  margin: 0 auto;
+  padding: .6rem;
+  font-size: 1.2rem;
+  background: pink;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+.addPatientButton:hover {
+  background: rgb(255, 110, 134);
+  transition: .2s;
+}

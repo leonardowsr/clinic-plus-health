@@ -1,0 +1,16 @@
+:root {
+  font-family: Arial, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,63 @@
+
+.col {
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  border-left: 1px solid rgba(0, 0, 0, .3);
+
+  border-top: none;
+  overflow: hidden;
+  overflow: auto;
+}
+.col:first-child {
+  border-left: none;
+}
+.col:last-child {
+  border-right: none;
+} 
+
+.rowTitle{
+position: sticky;
+background: white;
+top: 0;
+background-color: rgb(248, 215, 220);
+border-bottom:1px solid rgba(0, 0, 0, .3);
+font-weight: 600;
+}
+.col p {
+  text-align: center;
+  padding: 6px;
+  justify-content: center;
+  margin: 0;
+}
+.col .msgNoPatient {
+  border: none;
+  color: tomato;
+}
+.colTitleColumn {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  padding: 6px;
+}
+.colUl {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 4px;
+  gap: 4px;
+}
+.colUl li {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  margin: 2px auto;
+}
+.colUl li:first-child {
+  background-color: rgb(188, 248, 97);
+}
+.colUl li p {
+  border: none;
+}

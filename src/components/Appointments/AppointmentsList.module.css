@@ -1,0 +1,32 @@
+.AppointmentsListContainer {
+  height: 90%;
+}
+.categoryContainer {
+  display: flex;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(248, 215, 220);
+  padding: 0 .5rem;
+}
+.especialityList {
+  display: flex;
+  gap: 0 1rem;
+}
+.colTitleColumn {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+
+.colSection {
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: .5rem;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
