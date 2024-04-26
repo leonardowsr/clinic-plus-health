@@ -30,7 +30,6 @@ function AppointmentsRegister() {
       </p>
       <div className={styles.buttonContainer}>
         <Button onClick={handleModal}>Agendar consulta</Button>
-      
       </div>
       {modalVisible && <AddPatientModal handleModal={handleModal} />}
     </div>

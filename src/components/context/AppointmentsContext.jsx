@@ -48,7 +48,7 @@ function AppointmentsContextProvider({ children }) {
       console.log('Selecione uma especialidade medica.');
       return;
     }
-    
+
     if (specialtyAppointments[specialty].length > 0) {
       const updateQueue = specialtyAppointments[specialty];
       const inConsultationName = updateQueue.shift();
