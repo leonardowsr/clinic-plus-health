@@ -56,15 +56,19 @@
   border-radius: 6px;
 }
 .addPatientButton {
+  color: #00995D;
   width: 60%;
   margin: 0 auto;
   padding: .6rem;
   font-size: 1.2rem;
-  background: pink;
-  border: 1px solid gray;
+  background: white;
+  border: 2px solid #00995D;;
   border-radius: 8px;
 }
 .addPatientButton:hover {
-  background: rgb(255, 110, 134);
+  background: pink;
+  color: black;
+  border: 2px solid black;
+
   transition: .2s;
 }

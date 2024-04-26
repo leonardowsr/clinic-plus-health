@@ -1,10 +1,9 @@
 .categoryContainer {
   display: flex;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+
   align-items: center;
   gap: 1rem;
-  background-color: rgb(248, 215, 220);
+  background-color: var(--bg-color1);
   padding: 0 .5rem;
 }
 .categoryContainer p {
@@ -22,13 +21,6 @@
   padding: 0;
 }
 
-button.active {
-  background-color: black;
-}
-
-.specialtyList .active {
-  background-color: pink;
-}
 .specialtyList button {
   background-color: var(--color-btn);
   padding: 8px;
@@ -36,6 +28,6 @@ button.active {
 
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid rgba(128, 128, 128, 0.61);
+  border: 1px solid rgba(128, 128, 128, 1);
 }
 

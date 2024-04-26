@@ -1,5 +1,11 @@
 :root {
   font-family: Arial, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg-color0:#b1e6d1;
+  --bg-color1:#b1e6d1;
+  --btn-bg1: #b1e6d1;
+  --btn-bg2: #43ad83;
+  --btn-txt:white; 
+  --btn-hover: #43ad83;
 }
 
 body {

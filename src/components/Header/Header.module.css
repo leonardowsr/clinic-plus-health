@@ -1,5 +1,4 @@
 .HeaderContainer {
-  background: pink;
   text-align: center;
   padding: .6rem;
   height: 5%;
@@ -10,7 +9,7 @@
 
 .HeaderContainer h1 {
   margin: 0;
-  font-size: 2rem;
-  color: white;
-  text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.548);
+  font-size: 2.2rem;
+  color: rgb(132, 204, 149);
+  text-shadow: 1px 1px 1px black;
 }

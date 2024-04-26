@@ -3,9 +3,7 @@ function AppointmentsCallButton({ onClick, children, specialty, value }) {
     <button
       value={value}
       style={{
-        '--color-btn': `${
-          value === specialty ? 'rgb(255, 110, 134)' : 'white'
-        }`,
+        '--color-btn': `${value === specialty ? 'pink' : 'white'}`,
       }}
       onClick={onClick}
     >

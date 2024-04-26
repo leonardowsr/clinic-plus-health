@@ -42,9 +42,7 @@ function AppointmentsCall() {
         </AppointmentsCallButton>
       </div>
       <div className={styles.hidden}></div>
-      <Button onClick={handleCall} specialty={selectedSpecialty}>
-        Chamar paciente
-      </Button>
+      <Button onClick={handleCall}>Chamar paciente</Button>
     </div>
   );
 }

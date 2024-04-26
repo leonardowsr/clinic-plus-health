@@ -1,13 +1,15 @@
 .button {
   background: white;
+  color: #00995D;
   padding: 8px;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid rgba(128, 128, 128, 0.61);
+  border: 1px solid #00995D;
 }
 .button:hover:not(:disabled) {
-  background: rgb(255, 110, 134);
+  background: pink;
   border: 1px solid black;
+  color: black;
   transition: .2s;
 }
